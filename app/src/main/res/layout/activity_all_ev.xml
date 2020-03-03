@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allEv">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"><![CDATA[
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+
+        ]]>
+
+        <RelativeLayout
+            android:id="@+id/grid"
+            android:layout_width="640dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/background_light">
+
+            <TextView
+                android:id="@+id/lutron"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_below="@+id/lutron"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="161dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="275dp"
+                android:text="MG iSmart"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/creston"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="420dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="174dp"
+                android:text="Ather"
+                android:textColor="#121212"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/ather"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="320dp"
+                android:layout_marginEnd="130dp"
+                android:background="@mipmap/ather" />
+
+            <ImageButton
+                android:id="@+id/mg"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="320dp"
+                android:background="@mipmap/mg" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="174dp"
+                android:text="MG iSmart"
+                android:textColor="#070707"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8BC34A">
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

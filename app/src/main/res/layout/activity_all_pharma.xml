@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allPharma">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"><![CDATA[
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+
+        ]]>
+
+        <RelativeLayout
+            android:id="@+id/grid"
+            android:layout_width="640dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/background_light">
+
+            <ImageButton
+                android:id="@+id/netmeds"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="212dp"
+                android:background="@mipmap/netmeds" />
+
+            <ImageButton
+                android:id="@+id/pharmeasy"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="212dp"
+                android:layout_marginEnd="125dp"
+                android:background="@mipmap/pharmeasy" />
+
+            <ImageButton
+                android:id="@+id/medlife"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="125dp"
+                android:layout_marginBottom="161dp"
+                android:background="@mipmap/medlife" />
+
+            <ImageButton
+                android:id="@+id/onemg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="125dp"
+                android:layout_marginBottom="161dp"
+                android:background="@mipmap/onemg" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="139dp"
+                android:layout_marginTop="339dp"
+                android:text="Netmeds"
+                android:textColor="#050505"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="420dp"
+                android:layout_marginTop="340dp"
+                android:text="Pharmeasy"
+                android:textColor="#0C0C0C"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="145dp"
+                android:layout_marginBottom="128dp"
+                android:text="Medlife"
+                android:textColor="#0B0A0A"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="447dp"
+                android:layout_marginBottom="128dp"
+                android:text="1mg"
+                android:textColor="#050505"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8BC34A">
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

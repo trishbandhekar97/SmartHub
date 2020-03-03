@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"><![CDATA[
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+
+        ]]>
+
+        <RelativeLayout
+            android:id="@+id/grid"
+            android:layout_width="640dp"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:id="@+id/grocery"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="107dp"
+                android:background="@mipmap/grocery"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/taxi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_above="@+id/locator"
+                android:layout_below="@+id/grocery"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginBottom="68dp"
+                android:background="@mipmap/taxi"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/locator"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="75dp"
+                android:layout_marginBottom="107dp"
+                android:background="@mipmap/placeholder"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/delivery"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="107dp"
+                android:layout_toEndOf="@+id/grocery"
+                android:background="@mipmap/scooter"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/home_auto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_above="@+id/pharma"
+                android:layout_below="@+id/delivery"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginBottom="72dp"
+                android:layout_toEndOf="@+id/taxi"
+                android:background="@mipmap/smart_house"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/pharma"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginBottom="107dp"
+                android:layout_toEndOf="@+id/locator"
+                android:background="@mipmap/pharmacy"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/health"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginBottom="107dp"
+                android:layout_toEndOf="@+id/home_auto"
+                android:background="@mipmap/heartbeat"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/entertainment"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="111dp"
+                android:layout_toEndOf="@+id/delivery"
+                android:background="@mipmap/music"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/ev"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_above="@+id/health"
+                android:layout_below="@+id/entertainment"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginBottom="68dp"
+                android:layout_toEndOf="@+id/pharma"
+                android:background="@mipmap/car"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="88dp"
+                android:layout_marginTop="220dp"
+                android:text="Groceries"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="251dp"
+                android:layout_marginTop="220dp"
+                android:text="Food Delivery"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="220dp"
+                android:layout_marginEnd="131dp"
+                android:text="Music"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="79dp"
+                android:layout_marginBottom="234dp"
+                android:text="Order a Cab"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="232dp"
+                android:layout_marginBottom="235dp"
+                android:text="Home Automation"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="91dp"
+                android:layout_marginBottom="235dp"
+                android:text="Electric Vehicle"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="94dp"
+                android:layout_marginBottom="72dp"
+                android:text="Locator"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="279dp"
+                android:layout_marginBottom="72dp"
+                android:text="Health"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="472dp"
+                android:layout_marginBottom="72dp"
+                android:text="ECG"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8BC34A">
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
